@@ -1,0 +1,16 @@
+C:\Users\sun\Desktop\Kata\codewars_countingDuplicates\codewars_countingDuplicates\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\sun\Desktop\Kata\codewars_countingDuplicates\codewars_countingDuplicates\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\sun\Desktop\Kata\codewars_countingDuplicates\codewars_countingDuplicates\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\sun\Desktop\Kata\codewars_countingDuplicates\codewars_countingDuplicates\bin\Debug\zh-Hant\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+C:\Users\sun\Desktop\Kata\codewars_countingDuplicates\codewars_countingDuplicates\bin\Debug\zh-Hant\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+C:\Users\sun\Desktop\Kata\codewars_countingDuplicates\codewars_countingDuplicates\bin\Debug\zh-Hant\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\sun\Desktop\Kata\codewars_countingDuplicates\codewars_countingDuplicates\bin\Debug\codewars_countingDuplicates.dll
+C:\Users\sun\Desktop\Kata\codewars_countingDuplicates\codewars_countingDuplicates\bin\Debug\codewars_countingDuplicates.pdb
+C:\Users\sun\Desktop\Kata\codewars_countingDuplicates\codewars_countingDuplicates\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\sun\Desktop\Kata\codewars_countingDuplicates\codewars_countingDuplicates\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\sun\Desktop\Kata\codewars_countingDuplicates\codewars_countingDuplicates\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\sun\Desktop\Kata\codewars_countingDuplicates\codewars_countingDuplicates\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\sun\Desktop\Kata\codewars_countingDuplicates\codewars_countingDuplicates\obj\Debug\codewars_countingDuplicates.csprojResolveAssemblyReference.cache
+C:\Users\sun\Desktop\Kata\codewars_countingDuplicates\codewars_countingDuplicates\obj\Debug\codewars_countingDuplicates.csproj.CoreCompileInputs.cache
+C:\Users\sun\Desktop\Kata\codewars_countingDuplicates\codewars_countingDuplicates\obj\Debug\codewars_countingDuplicates.dll
+C:\Users\sun\Desktop\Kata\codewars_countingDuplicates\codewars_countingDuplicates\obj\Debug\codewars_countingDuplicates.pdb
