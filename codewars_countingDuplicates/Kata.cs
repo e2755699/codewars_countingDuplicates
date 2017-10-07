@@ -56,36 +56,46 @@ namespace codewars_countingDuplicates
         {
             AssertShouldBe(2, "Indivisibilities");
         }
+
+        [TestMethod]
+        public void Input_empty_shouldReturn_zero()
+        {
+            AssertShouldBe(0, "");
+        }
     }
 
     public class CountingDuplicates
     {
         public int Accum(string str)
         {
-            var duplicateTimes = 0;
+            var duplicates = 0;
             str.ToList().ForEach(x =>
             {
-                if (isDuplicateChar(str, x))
+                if (IsDuplicate(str, x))
                 {
                     str = ReplaceDuplicateChar(str, x);
-                    duplicateTimes++;
+                    duplicates++;
                 }
             });
             
-            return duplicateTimes;
+            return duplicates;
         }
 
-        private string ReplaceDuplicateChar(string str, char @char)
+        private string ReplaceDuplicateChar(string source, char idt)
         {
-            var a =  str.Where(x =>
-                !string.Equals(x.ToString(), @char.ToString(), StringComparison.CurrentCultureIgnoreCase));
+            var a =  source.Where(x =>
+                !IsCharEqual(x, idt));
             return string.Concat(a);
-            //return str.Replace(@char.ToString().ToUpper(), "").Replace(@char.ToString().ToLower(), ""); ;
         }
 
-        private bool isDuplicateChar(string str, char @char)
+        private bool IsDuplicate(string source, char idt)
         {
-            return str.Count(x => string.Equals(@char.ToString(), x.ToString(), StringComparison.CurrentCultureIgnoreCase)) > 1;
+            return source.Count(x => IsCharEqual(x, idt)) > 1;
+        }
+
+        private static bool IsCharEqual(char charA, char charB)
+        {
+            return string.Equals(charB.ToString(), charA.ToString(), StringComparison.CurrentCultureIgnoreCase);
         }
     }
 }
