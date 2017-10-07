@@ -77,7 +77,10 @@ namespace codewars_countingDuplicates
 
         private string ReplaceDuplicateChar(string str, char @char)
         {
-            return str.Replace(@char.ToString().ToUpper(), "").Replace(@char.ToString().ToLower(), ""); ;
+            var a =  str.Where(x =>
+                !string.Equals(x.ToString(), @char.ToString(), StringComparison.CurrentCultureIgnoreCase));
+            return string.Concat(a);
+            //return str.Replace(@char.ToString().ToUpper(), "").Replace(@char.ToString().ToLower(), ""); ;
         }
 
         private bool isDuplicateChar(string str, char @char)
