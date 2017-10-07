@@ -1,7 +1,6 @@
-﻿using System;
-using System.Globalization;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System;
 using System.Linq;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace codewars_countingDuplicates
 {
@@ -64,17 +63,26 @@ namespace codewars_countingDuplicates
         public int Accum(string str)
         {
             var duplicateTimes = 0;
-            foreach (var @char in str)
+            str.ToList().ForEach(x =>
             {
-                if (str.Count(x => string.Equals(@char.ToString(), x.ToString(), StringComparison.CurrentCultureIgnoreCase)) > 1)
+                if (isDuplicateChar(str, x))
                 {
-                    str = str.Replace(@char.ToString().ToUpper(), "");
-                    str = str.Replace(@char.ToString().ToLower(), "");
+                    str = ReplaceDuplicateChar(str, x);
                     duplicateTimes++;
                 }
-            }
+            });
             
             return duplicateTimes;
+        }
+
+        private string ReplaceDuplicateChar(string str, char @char)
+        {
+            return str.Replace(@char.ToString().ToUpper(), "").Replace(@char.ToString().ToLower(), ""); ;
+        }
+
+        private bool isDuplicateChar(string str, char @char)
+        {
+            return str.Count(x => string.Equals(@char.ToString(), x.ToString(), StringComparison.CurrentCultureIgnoreCase)) > 1;
         }
     }
 }
